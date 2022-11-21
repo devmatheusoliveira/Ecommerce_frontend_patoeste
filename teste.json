@@ -1,0 +1,154 @@
+[
+    {
+        "id": 15,
+        "name": "Botão duplo Ø22mm plástico, retorno por mola, verde \"I\", vermelho saliente \"O\", NA+NF",
+        "slug": "hoodie-with-logo-3",
+        "permalink": "https://lojapatoeste.com.br/produto/hoodie-with-logo-3/",
+        "date_created": "2022-10-05T19:57:53",
+        "date_created_gmt": "2022-10-05T19:57:53",
+        "date_modified": "2022-10-05T20:54:52",
+        "date_modified_gmt": "2022-10-05T20:54:52",
+        "type": "simple",
+        "status": "publish",
+        "featured": false,
+        "catalog_visibility": "visible",
+        "description": "<p>O XB5AL73415 é um botão plástico duplo verde e vermelho saliente, com gravação \"I\" e \"O\", respectivamente, da linha Harmony XB5 que opera com mecanismo de retorno por mola e possui um contato Normalmente Aberto e um Normalmente Fechado. Ele oferece uma interface ergonômica para controlar suas máquinas e pode ser facilmente instalado em painéis com furação padrão de 22mm de diâmetro. É resistente a impactos, poeira, água e vibração graças ao seu IP66 / IP67 / IP69 / IP69K, tornando-o ideal para todas as aplicações, em especial as que exigem resistência a agentes químicos e isolamento elétrico duplo. Graças à sua simplicidade de instalação, flexibilidade e robustez, atende aos requisitos da maioria das aplicações industriais, dentre elas podemos citar: Indústria de alimentos e bebidas, Indústrias químicas, Painéis de distribuição de energia.</p>\n",
+        "short_description": "<p>This is a simple product.</p>\n",
+        "sku": "XB5AL73415",
+        "price": "162.17",
+        "regular_price": "162.17",
+        "sale_price": "",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": false,
+        "purchasable": true,
+        "total_sales": 0,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [],
+        "download_limit": 0,
+        "download_expiry": 0,
+        "external_url": "",
+        "button_text": "",
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": false,
+        "stock_quantity": null,
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "low_stock_amount": null,
+        "sold_individually": false,
+        "weight": "52.75",
+        "dimensions": {
+            "length": "9.0",
+            "width": "5.5",
+            "height": "3.5"
+        },
+        "shipping_required": true,
+        "shipping_taxable": true,
+        "shipping_class": "",
+        "shipping_class_id": 0,
+        "reviews_allowed": true,
+        "average_rating": "0.00",
+        "rating_count": 0,
+        "upsell_ids": [],
+        "cross_sell_ids": [],
+        "parent_id": 0,
+        "purchase_note": "",
+        "categories": [
+            {
+                "id": 20,
+                "name": "Schneider Electric",
+                "slug": "schneider-electric"
+            }
+        ],
+        "tags": [],
+        "images": [
+            {
+                "id": 16,
+                "date_created": "2022-10-05T20:04:10",
+                "date_created_gmt": "2022-10-05T20:04:10",
+                "date_modified": "2022-10-05T20:04:10",
+                "date_modified_gmt": "2022-10-05T20:04:10",
+                "src": "https://lojapatoeste.com.br/wp-content/uploads/2022/10/PF569133_web.jpg",
+                "name": "PF569133_web",
+                "alt": ""
+            }
+        ],
+        "attributes": [
+            {
+                "id": 1,
+                "name": "Color",
+                "position": 0,
+                "visible": true,
+                "variation": false,
+                "options": [
+                    "Blue"
+                ]
+            }
+        ],
+        "default_attributes": [],
+        "variations": [],
+        "grouped_products": [],
+        "menu_order": 0,
+        "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#82;&#36;</span>&nbsp;162,17</bdi></span>",
+        "related_ids": [],
+        "meta_data": [
+            {
+                "id": 69,
+                "key": "_wpcom_is_markdown",
+                "value": "1"
+            },
+            {
+                "id": 71,
+                "key": "_last_editor_used_jetpack",
+                "value": "classic-editor"
+            },
+            {
+                "id": 1031,
+                "key": "_elementor_edit_mode",
+                "value": "builder"
+            },
+            {
+                "id": 1032,
+                "key": "_elementor_template_type",
+                "value": "wp-post"
+            },
+            {
+                "id": 1033,
+                "key": "_elementor_version",
+                "value": "3.7.8"
+            },
+            {
+                "id": 1110,
+                "key": "_elementor_css",
+                "value": {
+                    "time": 1665260256,
+                    "fonts": [],
+                    "icons": [],
+                    "dynamic_elements_ids": [],
+                    "status": "empty",
+                    "0": "",
+                    "css": ""
+                }
+            }
+        ],
+        "stock_status": "instock",
+        "has_options": false,
+        "_links": {
+            "self": [
+                {
+                    "href": "https://lojapatoeste.com.br/wp-json/wc/v3/products/15"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://lojapatoeste.com.br/wp-json/wc/v3/products"
+                }
+            ]
+        }
+    }
+]
