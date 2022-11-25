@@ -1,6 +1,9 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
+import 'package:ecommerce/api/api_services.dart';
 import 'package:ecommerce/shared/theme/app_colors.dart';
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import 'package:ecommerce/models/product_model.dart';
@@ -61,7 +64,15 @@ class ProdutoLojaWidget extends StatelessWidget {
           ),
           ElevatedButton(
             onPressed: () {
-              launchUrl(Uri.parse(produto.buyLink));
+              SharedPreferences.getInstance().then(
+                (prefs) {
+                  prefs.setInt("product_id", produto.id);
+                  APIService().getProductDetail();
+                  context.push('/detalhes');
+                },
+              );
+
+              // launchUrl(Uri.parse(produto.buyLink));
             },
             style: ButtonStyle(
               backgroundColor:

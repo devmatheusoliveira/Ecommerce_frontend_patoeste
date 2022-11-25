@@ -7,20 +7,20 @@ class HomePageController {
   Future<List<ProdutoModel>> getProdutos() async {
     List<ProdutoModel> produtos = [];
     final response = await http.get(
-        Uri.parse('http://devmatheusoliveira.com.br/mypythonapp/ListProducts'));
+        Uri.parse('https://devmatheusoliveira.com.br/mypythonapp/products'));
     if (response.statusCode == 200) {
       for (var element in jsonDecode(response.body)) {
         if (element['date_created'] != null) {
           ProdutoModel produtoModel = ProdutoModel(
-            name: element['name'] as String,
-            description: element['short_description'] as String,
-            image: element['images'].length >= 0
-                ? element['images'][0]["src"] as String
-                : " ",
-            price: element['price'] as String,
-            buyLink: element['permalink'] as String,
-            category: element['categories'][0]["name"] as String,
-          );
+              name: element['name'] as String,
+              description: element['short_description'] as String,
+              image: element['images'].length >= 0
+                  ? element['images'][0]["src"] as String
+                  : " ",
+              price: element['price'] as String,
+              buyLink: element['permalink'] as String,
+              category: element['categories'][0]["name"] as String,
+              id: element['id'] as int);
           // print(produtoModel);
           produtos.add(produtoModel);
         }

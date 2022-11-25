@@ -1,12 +1,9 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
-import 'package:ecommerce/api/api_services.dart';
 import 'package:ecommerce/models/cart_item_model.dart';
 import 'package:ecommerce/shared/widgets/cart_item.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
 import 'package:ecommerce/shared/theme/app_colors.dart';
-import 'package:lottie/lottie.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class CartDrawer extends StatefulWidget {
@@ -39,7 +36,7 @@ class _CartDrawerState extends State<CartDrawer> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 const Text(
-                  'Carrinho',
+                  'Carrinhos',
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 18,
